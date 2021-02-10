@@ -6,8 +6,9 @@
 
 body {
   font-family: Arial, Helvetica, sans-serif;
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(5, 5, 5, 0.6)),
-  url('./homepage-background.jpg');
+  background-image:
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(5, 5, 5, 0.6)),
+    url('./homepage-background.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
@@ -43,7 +44,7 @@ nav ul li {
 
 nav ul li:hover {
   cursor: pointer;
-  color: #C3C3C3;
+  color: #c3c3c3;
   border-bottom: 2px solid #d4af37;
 }
 
