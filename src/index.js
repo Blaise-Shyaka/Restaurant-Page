@@ -1,6 +1,6 @@
-import homepage from './homepage';
-import menu from './menu';
-import reservations from './reservations';
+import homepage from './homepage/homepage';
+import menu from './menu/menu';
+import reservations from './reservations/reservations';
 
 function cleanElement(identifier) {
   const elt = document.querySelector(identifier);

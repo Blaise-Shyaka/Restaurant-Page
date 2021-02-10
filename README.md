@@ -2,9 +2,9 @@
 
 > In this project, I have built a restaurant page. It has a home page with details about the restaurant, the menu, as well as the reservation form.
 
-![screenshot1](./src/Screenshot1.png)
-![screenshot2](./src/Screenshot2.png)
-![screenshot3](./src/Screenshot3.png)
+![screenshot1](./src/assets/Screenshot1.png)
+![screenshot2](./src/assets/Screenshot2.png)
+![screenshot3](./src/assets/Screenshot3.png)
 
 ## Built With
 
