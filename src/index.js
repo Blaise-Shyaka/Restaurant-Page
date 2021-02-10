@@ -24,7 +24,10 @@ function render() {
 
       if (event.currentTarget.id === 'menu') {
         cleanElement('#content');
+        const header = document.createElement('h1');
+        header.innerHTML = 'Menu';
         const wrapperDiv = menu();
+        contentDisplay.appendChild(header);
         contentDisplay.appendChild(wrapperDiv);
         return;
       }

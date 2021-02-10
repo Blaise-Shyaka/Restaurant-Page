@@ -1,0 +1,23 @@
+#menu-wrapper {
+  width: 40%;
+  margin: 2rem auto;
+  background-color: whitesmoke;
+  opacity: 0.6;
+  text-align: center;
+  padding: 2rem;
+}
+
+h1 {
+  text-align: center;
+  color: whitesmoke;
+  margin-top: 0.5rem;
+}
+
+.menu-item {
+  margin: 1rem;
+  font-size: 1.5rem;
+}
+
+.hr {
+  margin-top: 1rem;
+}
