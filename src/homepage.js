@@ -1,3 +1,5 @@
+import './homepage.css';
+
 export default function homepage() {
   const restaurantDetails = document.createElement('div');
   const restaurantAddress = document.createElement('p');
@@ -12,9 +14,13 @@ export default function homepage() {
   restaurantSlogan.appendChild(drink);
   restaurantSlogan.appendChild(chat);
 
+  restaurantDetails.setAttribute('id', 'resto-details');
+  restaurantAddress.setAttribute('id', 'resto-address');
+  restaurantSlogan.setAttribute('id', 'resto-slogan');
+
   restaurantAddress.innerHTML = 'Kigali, KG 546 St, House No. 56';
-  eat.innerHTML = 'Eat';
-  drink.innerHTML = 'Drink';
+  eat.innerHTML = 'Eat -';
+  drink.innerHTML = 'Drink -';
   chat.innerHTML = 'Chat';
 
   return restaurantDetails;
