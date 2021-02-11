@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-image:
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(5, 5, 5, 0.6)),
+    url('../assets/homepage-background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+#logo {
+  margin: 1rem 3rem;
+  font-size: 2rem;
+  font-family: monospace;
+  font-weight: bolder;
+  color: whitesmoke;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-evenly;
+  width: 30%;
+}
+
+nav ul li {
+  list-style: none;
+  font-size: 1.2rem;
+  padding: 1rem 0.2rem;
+  color: #d4af37;
+  text-align: center;
+}
+
+nav ul li:hover {
+  cursor: pointer;
+  color: #c3c3c3;
+  border-bottom: 2px solid #d4af37;
+}
+
+#resto-details {
+  position: absolute;
+  top: 35%;
+  text-align: center;
+  width: 100%;
+  color: antiquewhite;
+}
+
+#resto-address {
+  font-size: 1.3rem;
+  font-style: italic;
+}
+
+#resto-slogan {
+  font-size: 7rem;
+}
+
+#resto-slogan span {
+  margin-right: 2rem;
+}

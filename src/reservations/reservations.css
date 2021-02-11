@@ -1,0 +1,25 @@
+form {
+  width: 30%;
+  margin: 1rem auto;
+}
+
+input {
+  width: 100%;
+  margin: 0.5rem 0.5rem;
+  padding: 0.5rem 1rem;
+  font-size: 1.1rem;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+}
+
+input[type=submit] {
+  background-color: #295939;
+  color: whitesmoke;
+  font-weight: bold;
+  padding: 0.8rem;
+}
+
+input[type=submit]:hover {
+  cursor: pointer;
+}
